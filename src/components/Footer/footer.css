@@ -1,0 +1,14 @@
+.footer {
+    background: #aaaaaa;
+    padding: 20px;
+    position: relative;
+}
+
+.footer__logo {
+    background: #40a070;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+}

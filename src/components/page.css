@@ -1,0 +1,10 @@
+:local(.page) {
+    background: #efefef;
+    padding: 20px;
+    text-align: center;
+}
+
+:local(.pageContainer) {
+    background: #efefef;
+    padding: 40px 20px;
+}
