@@ -6,22 +6,22 @@ import PrimaryButton from './site/buttons/PrimaryButton'
 
 class Page extends Component {
 
-	render() {
-		const text = 'Site Page';
+  render() {
+    const text = 'Site Page';
 
-		return (
-			<div className={styles.page}>
-				<Header />
-				<div className={styles.pageContainer}>
-					<div>
-						{text}
-					</div>
-					<PrimaryButton />
-				</div>
-				<Footer />
-			</div>
-		);
-	}		
+    return (
+      <div className={styles.page}>
+        <Header />
+        <div className={styles.pageContainer}>
+          <div>
+            {text}
+          </div>
+          <PrimaryButton />
+        </div>
+        <Footer />
+      </div>
+    );
+  }   
 }
 
 export default Page;
