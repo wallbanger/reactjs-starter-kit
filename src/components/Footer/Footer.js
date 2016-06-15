@@ -10,7 +10,7 @@ class Footer extends Component {
 
     return (
       <div className={className}>
-        <div></div>{text}
+        <div>{text}</div>
         <Logo className={styles.footer__logo} />
       </div>
     );
@@ -18,4 +18,3 @@ class Footer extends Component {
 }
 
 export default Footer;
-
