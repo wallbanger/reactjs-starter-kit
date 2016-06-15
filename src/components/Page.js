@@ -12,7 +12,7 @@ class Page extends Component {
     return (
       <div className={styles.page}>
         <Header />
-        <div className={styles.pageContainer}>
+        <div className={styles.page__container}>
           <div>
             {text}
           </div>
