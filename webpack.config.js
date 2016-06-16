@@ -15,7 +15,15 @@ module.exports = {
         loaders: [
             { test: /\.jsx?/, loaders: ['babel'], include: path.join(__dirname, 'src') },
             { test: /\.css$/, loaders: ['style', 'css?modules&importLoaders=1', 'postcss-loader'] },
-            { test: /\.scss$/, loaders: ['style', 'css!sass?indentedSyntax=true&sourceMap=true'] }
+            {
+                test: /\.scss$/,
+                loaders: [
+                    'style?sourceMap',
+                    'css?modules&importLoaders=1&localIdentName=[local]__[hash:base64:5]',
+                    // 'resolve-url',
+                    'sass?sourceMap'
+                ]
+            }
         ]
     },
     postcss: [
