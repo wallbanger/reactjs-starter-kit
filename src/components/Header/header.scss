@@ -1,0 +1,14 @@
+.header {
+    background: #6699cc;
+    padding: 20px;
+    position: relative;
+
+    &__logo {
+        background: #003366;
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #ffffff;
+    }
+}

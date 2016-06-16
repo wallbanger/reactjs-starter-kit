@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import Logo from '../site/logo/Logo'
-import styles from './header.css';
+import styles from './header.scss';
 
 class Header extends Component {
 
