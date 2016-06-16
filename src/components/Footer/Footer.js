@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './footer.css';
+import styles from './footer.scss';
 import Logo from '../site/logo/Logo'
 
 class Footer extends Component {
