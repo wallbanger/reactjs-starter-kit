@@ -1,0 +1,29 @@
+.dropdown {
+  display: inline;
+  position: relative;
+
+  &__button {
+    background: linear-gradient(to bottom, #ccc, #999);
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding:  0 3px;
+  }
+  
+  &__list {
+    background: #ccc;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    min-width: 50px;
+    text-align: left;
+    list-style: none;
+    z-index: 50;
+
+    &.is-open {
+      display: block;
+    }
+  }
+}

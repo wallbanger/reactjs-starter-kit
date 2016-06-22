@@ -24,7 +24,7 @@ module.exports = {
                 test: /\.scss$/,
                 loaders: [
                     'style?sourceMap',
-                    'css?modules&importLoaders=1&localIdentName=[local]__[hash:base64:5]',
+                    'css?modules&importLoaders=1&localIdentName=[local]',
                     // 'resolve-url',
                     'sass?sourceMap'
                 ]

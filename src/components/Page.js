@@ -3,6 +3,7 @@ import styles from './page.scss';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import PrimaryButton from './site/buttons/PrimaryButton'
+import Dropdown from './site/dropdown/Dropdown'
 
 class Page extends Component {
 
@@ -15,6 +16,7 @@ class Page extends Component {
         <div className={styles.page__container}>
           <div>
             {text}
+            <Dropdown className="site__dropdown" />
           </div>
           <PrimaryButton />
         </div>
