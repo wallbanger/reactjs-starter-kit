@@ -14,7 +14,7 @@ class Page extends Component {
       <div className={styles.page}>
         <Header />
         <div className={styles.page__container}>
-          <div>
+          <div className={styles.page__content}>
             {text}
             <Dropdown className="site__dropdown" />
           </div>
