@@ -21,9 +21,9 @@ class Dropdown extends Component {
       <div className={`${styles.dropdown} ${this.props.className}`}>
         <a className={styles.dropdown__button} onClick={this.handleDropdown} href="#">text</a>
         <ul className={classNames(styles.dropdown__list, { 'is-open': this.state.isOpen })}>
-          <li><a href="">Item 1</a></li>
-          <li><a href="">Item 2</a></li>
-          <li><a href="">Item 3</a></li>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
         </ul>
       </div>
     );
