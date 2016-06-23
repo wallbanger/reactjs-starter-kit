@@ -16,7 +16,7 @@ class Page extends Component {
         <div className={styles.page__container}>
           <div className={styles.page__content}>
             {text}
-            <Dropdown className="site__dropdown" />
+            <Dropdown className={styles.page__dropdown} />
           </div>
           <PrimaryButton />
         </div>

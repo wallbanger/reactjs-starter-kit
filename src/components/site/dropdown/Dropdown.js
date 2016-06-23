@@ -19,7 +19,7 @@ class Dropdown extends Component {
   render() {
     return (
       <div className={classNames(styles.dropdown, this.props.className)}>
-        <a className={styles.dropdown__button} onClick={this.handleDropdown} href="#">text</a>
+        <a className={styles.dropdown__button} onClick={this.handleDropdown} href="#">Dropdown</a>
         <ul className={classNames(styles.dropdown__list, { 'is-open': this.state.isOpen })}>
           <li><a href="#">Item 1</a></li>
           <li><a href="#">Item 2</a></li>
