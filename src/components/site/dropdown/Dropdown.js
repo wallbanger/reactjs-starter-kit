@@ -32,7 +32,6 @@ class Dropdown extends Component {
 
 Dropdown.propTypes = {
   className: PropTypes.string,
-  isOpen: PropTypes.bool,
 };
 
 export default Dropdown;
