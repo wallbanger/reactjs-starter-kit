@@ -1,6 +1,6 @@
 # React JS starter kit (with SCSS modules)
 
-Simple application, build on React JS and webpack
+Simple site application, build on React JS and webpack
 
 ## Local Installation
 
