@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import styles from './page.scss';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
-import PrimaryButton from './site/buttons/PrimaryButton'
-import Dropdown from './site/dropdown/Dropdown'
+import PrimaryButton from './site/buttons/PrimaryButton';
+import Dropdown from './site/dropdown/Dropdown';
 
 class Page extends Component {
 

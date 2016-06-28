@@ -1,13 +1,13 @@
-import React, { Component, PropTypes } from 'react'
-import styles from './dropdown.scss'
+import React, { Component, PropTypes } from 'react';
+import styles from './dropdown.scss';
 import classNames from 'classnames';
 
 class Dropdown extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isOpen: false,
-    }
+      isOpen: false
+    };
     this.handleDropdown = this.handleDropdown.bind(this);
   }
 
@@ -34,7 +34,7 @@ class Dropdown extends Component {
 }
 
 Dropdown.propTypes = {
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 
 export default Dropdown;

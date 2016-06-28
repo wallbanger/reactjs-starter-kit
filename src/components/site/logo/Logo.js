@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from 'react';
 
 function Logo({ className }) {
   
@@ -10,7 +10,7 @@ function Logo({ className }) {
 }
 
 Logo.propTypes = {
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 
 export default Logo;
