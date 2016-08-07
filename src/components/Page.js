@@ -6,7 +6,7 @@ import PrimaryButton from './site/buttons/PrimaryButton';
 class Page extends Component {
 
   render() {
-    const text = 'Site Page Content';
+    const text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
 
     return (
       <div className={styles.page}>
