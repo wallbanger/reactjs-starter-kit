@@ -11,7 +11,7 @@ class Page extends Component {
     return (
       <div className={styles.page}>
         <Header />
-        <div className={styles.page__container}>
+        <div className={styles.page__wrapper}>
           <div className={styles.page__content}>
             {text}
           </div>
